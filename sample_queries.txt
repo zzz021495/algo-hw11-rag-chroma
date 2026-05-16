@@ -1,0 +1,19 @@
+﻿=== Sample Queries Evaluation (Top-3 Hits & Distance) ===
+
+Query 1 (English): What is a direct-address table?
+- Evaluation Result: Top-3 Hit = Yes (Matched: T[k] contains a pointer to the element)
+
+Query 2 (English): How does chaining resolve collisions?
+- Evaluation Result: Top-3 Hit = Yes (Matched: chained-hash-insert puts element at the head of list)
+
+Query 3 (中文): 什麼是雜湊衝突 (Hash Collision)?
+- Evaluation Result: Top-3 Hit = Yes (Matched: 當兩個不同的鍵值被映射到同一個雜湊槽位)
+
+Query 4 (中文): 除法雜湊法 (Division Method) 怎麼運作?
+- Evaluation Result: Top-3 Hit = Yes (Matched: h(k) = k mod m)
+
+--------------------------------------------------
+Overall Performance Metrics:
+- Total Queries Tested: 4
+- Successful Top-3 Hits: 4
+- Final Recall@3: 1.0000 (100% Accuracy)
